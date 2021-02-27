@@ -1,0 +1,16 @@
+body { background-image: linear-gradient(white, orange, brown)}
+
+img{
+    width: 10%;
+    height: auto
+}
+button{
+    margin: 10px;
+}
+.form-control{
+    margin: 10px;
+}
+
+.font{
+    font-size: 25px;
+}

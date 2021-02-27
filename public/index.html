@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/burger_style.css" type="text/css" />
+    <title>Eat-Da-Burger!</title>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="/assets/js/burgers.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center" id="top-bar">
+          <img src ="/assets/img/img2.png" alt="burger">
+          <h1>Eat-Da-Burger!</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>Enter a burger you want to eat and click Submit</p>
+          <form class="add-burger">
+            <input type="text" class="form-control" name="burger_name" id="ca"> 
+             <button id="subtmitBtn" type="button" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class= "container">
+      <div class="row font">
+        <div class = col-md-6>
+          <h2>Burgers to Eat</h2>
+
+    <ul id="notEaten"></ul>
+        </div>
+        <div class= col-md-6>
+           <h2>Devoured</h2>
+
+    <ul id="devoured"></ul>
+        </div>
+      </div>
+    </div>
+    </body>
+</html>
